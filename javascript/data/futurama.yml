@@ -1,0 +1,51 @@
+openapi: 3.0.3
+info:
+  title: Title
+  description: Title
+  version: 1.0.0
+servers:
+  - url: 'https'
+paths:
+  /info:
+    get:
+      summary: Returns a list of info.
+      description: Optional extended description in CommonMark or HTML
+      responses:
+        '200':
+          description: A JSON array of user names
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/info'
+components:
+  schemas:
+    info:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        yearsAired:
+          type: string
+          example: 1999–2013
+        synopsis:
+          type: "string"
+          example: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        creators:
+          type: array
+          items:
+            $ref: '#/components/schemas/imdb'
+    imdb:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        name:
+          type: string
+          example: John Doe
+        url:
+          type: "string"
+          example: "http://www.imdb.com/name/nm0004981"
