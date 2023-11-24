@@ -8,7 +8,7 @@
 
   const a = ["z", "b", "c", "d", "1", "-"];
 
-  const b = a.sort((a, b) => a.localeCompare(b));
+  const b = undefined; //TODO
   console.log("Result Exercise 1", b);
 }
 {
@@ -18,6 +18,6 @@
   //- Stampare entrambi gli oggetti a console
 
   const a = { a: 1, b: 2, c: { c1: 1, c2: 3 } };
-  const b = { ...a, ...{ e: 1 } };
+  const b = undefined; //TODO
   console.log("Result Exercise 2", { a, b });
 }

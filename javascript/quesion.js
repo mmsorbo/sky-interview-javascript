@@ -18,8 +18,8 @@
    * Indicate where the closure is created and where it is executed.
    *
    * Solution
-   * Exercise #1 =  3
-   * Exercise #1 =  4
+   * Exercise #1 =  ?
+   * Exercise #1 =  ?
    *
    */
 }
@@ -38,7 +38,14 @@
    * Which one of these values is truty?
    *
    * Solution
-   * Exercise #2 =   { a: false, b: '', c: 0, d: 0, e: 0, f: true }
+   * Exercise #2 =   {
+   *  a: ?,
+   *  b: ?,
+   *  c: ?,
+   *  d: ?,
+   *  e: ?,
+   *  f: ?
+   * }
    * */
 }
 
@@ -67,7 +74,10 @@
    * SampleClass is the implementation of a pattern, which one?
    *
    * Solution
-   * Exercise #3  { result1: 10, result2: 10 }
+   * Exercise #3  {
+   *  result1: ?,
+   *  result2: ?
+   * }
    *
    */
 }
@@ -96,11 +106,11 @@
    *
    * Solution
    * Exercise #4  {
-   *    result1: 10,
-   *    result2: [ 0, 2, 4 ],
-   *    result3: 0,
-   *    result4: [ 10, 11, 12, 13, 14 ],
-   *    result5: undefined
+   *    result1: ?,
+   *    result2: ?,
+   *    result3: ?,
+   *    result4: ?,
+   *    result5: ?
    * }
    */
 }
