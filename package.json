@@ -21,6 +21,9 @@
     "nodemon": "^3.0.1"
   },
   "dependencies": {
-    "axios": "^1.6.2"
+    "@badeball/cypress-cucumber-preprocessor": "^19.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "axios": "^1.6.2",
+    "cypress": "^13.4.0"
   }
 }
