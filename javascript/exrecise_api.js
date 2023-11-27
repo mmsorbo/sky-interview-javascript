@@ -2,3 +2,5 @@
 //You can find OpenApi data/futurama.yaml or data/futurama.jpg
 
 //TODO
+
+console.log("Result Exercise 1", undefined);
