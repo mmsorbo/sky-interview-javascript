@@ -13,9 +13,19 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "start": {
-      "name": "start",
-      "command": "yarn start",
+    "ex1": {
+      "name": "ex1",
+      "command": "npm run ex1",
+      "runAtStart": true
+    },
+    "ex2": {
+      "name": "ex2",
+      "command": "npm run ex2",
+      "runAtStart": true
+    },
+    "ex3": {
+      "name": "ex3",
+      "command": "npx cypress run --e2e",
       "runAtStart": true
     }
   }
