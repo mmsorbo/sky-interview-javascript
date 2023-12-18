@@ -10,7 +10,7 @@
   const a = ["z", "b", "c", "d", 1, "-", "@"];
 
   const b = undefined; //TODO
-  console.log("Result Exercise 1", b);
+  //console.log("Result Exercise 1", b);
 }
 {
   /*
@@ -44,5 +44,5 @@
 
   const a = { a: 1, b: 2, c: { c1: 1, c2: 3 } };
   const b = undefined; //TODO
-  console.log("Result Exercise 3", { a, b });
+  // console.log("Result Exercise 3", { a, b });
 }

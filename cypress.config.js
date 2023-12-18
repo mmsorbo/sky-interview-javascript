@@ -12,14 +12,14 @@ async function setupNodeEvents(on, config) {
     createBundler({ plugins: [createEsbuildPlugin.default(config)] }),
   );
 
-  on('task', {
+  on("task", {
     log(message) {
-        // Then to see the log messages in the terminal
-        //   cy.task('log', 'my message');
-        console.log(message);
-        return null;
+      // Then to see the log messages in the terminal
+      //   cy.task('log', 'my message');
+      console.log(message);
+      return null;
     },
-});
+  });
 
   return config;
 }

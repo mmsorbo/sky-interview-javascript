@@ -11,30 +11,30 @@ Cypress.Commands.add("getFuturamaInfo", () => {});
 
 /*
 Create new cy command named arrayCompare
-- Given a first array [{"name":"a"},{"name":"b"}] 
-- Given a second array [{"name":"b"},{"name":"c"}] 
+- Given expected array [{"name":"a"},{"name":"b"}] 
+- Given result array [{"name":"b"},{"name":"c"}] 
 - Check if two array have the same values 
 
 To run open new terminal and run npx cypress run --e2e
 
 */
 Cypress.Commands.add("arrayCompare", () => {
-  const a = [{ name: "a" }, { name: "b" }];
-  const b = [{ name: "b" }, { name: "a" }];
+  const expected = [{ name: "a" }, { name: "b" }];
+  const result = [{ name: "b" }, { name: "a" }];
 });
 
 /*
 Create new cy command named objectCompare
-- Given a first object {"a":1,"b":2,"c":"3"}
-- Given a second array {"b":2,"c":"3","a":1}
+- Given expected object {"a":1,"b":2,"c":"3"}
+- Given result object {"b":2,"c":"3","a":1}
 - Check if two object have the same values 
 
 To run open new terminal and run npx cypress run --e2e
 
 */
 Cypress.Commands.add("objectCompare", () => {
-  const a = { a: 1, b: 2, c: 3 };
-  const b = { b: 2, c: 3, a: 1 };
+  const expected = { a: 1, b: 2, c: 3 };
+  const result = { b: 2, c: 3, a: 1 };
 });
 
 /**

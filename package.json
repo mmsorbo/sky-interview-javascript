@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "ex1": "nodemon javascript/exercise_ecma_6.js",
+    "ex2": "nodemon javascript/exrecise_api.js"
   },
   "repository": {
     "type": "git",

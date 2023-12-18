@@ -13,6 +13,7 @@
   const subFn = fn();
   subFn();
   subFn();
+
   /***
    * What is printed on console?
    * Indicate where the closure is created and where it is executed.
@@ -103,6 +104,29 @@
    * What are the parameters a1,a2.....c5?
    * What are the results?
    * How would you write the sum function in ECMA6?
+   *
+   * Solution
+   * Exercise #4  {
+   *    result1: ?,
+   *    result2: ?,
+   *    result3: ?,
+   *    result4: ?,
+   *    result5: ?
+   * }
+   */
+}
+{
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+  async function ex6() {
+    const a = 10;
+    sleep(10);
+    const b = 10;
+  }
+  ex6.then();
+
+  /*
+   * Will the constant b be equal to 10 before or after sleep?
    *
    * Solution
    * Exercise #4  {
